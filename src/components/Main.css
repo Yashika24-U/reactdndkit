@@ -1,0 +1,25 @@
+body{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main-div{ 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;  
+   width:50%;  
+   margin:80px;
+}
+input,button{
+    padding:5px;
+    margin:5px; 
+}
+
+.users-div{
+    text-align: center;
+    padding:10px;
+    
+    border:1px solid black;
+
+}

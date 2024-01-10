@@ -1,0 +1,19 @@
+Step1: npm install @dnd-kit/core @dnd-kit/utilities @dnd-kit/sortable
+Step2 :Wrap the whole list DndContext collisionDetection and  onDragEnd
+Step3 : create onDragEnd func console.log event
+Step4: iNSIDE dNDcONTEXT create SortableContext
+Step5:items = {} strattegy =  {varticalListSortingStrategy}
+Step6: We want to instantiate inside a hook from the DND library
+We want to create a childcomp and use a hook inside
+Step7: REnder SortableUser and pass key and user
+Step8: Inside sortableuser  we want to use hook (useSortable) from dndkit
+Step9: iNSIDE HOOK NECESSARY THAT ID MUST BE UNIQUE AND DESTRUCTURE SOME 
+prop from that hook
+Step10: Add ref spread out all attributes and listeners
+Step11: Add stylings  and import from CSS FROM DND/utilities
+Step12: Add styl in div .The goal is that inside our element
+by using hooks we get lots of stuffs for our dom node like listenrs, dnd,style
+and we are just applying  all this to our parent element inside this component
+Step13:In onDragEnd add the active and over from event
+Step14:Then write that partcular logic using findIdx
+Step15:Finally use arrayMove to change the idxes in th user array
